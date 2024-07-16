@@ -65,7 +65,7 @@ export class Incomes {
                 const incomeOptionEdit: HTMLButtonElement = document.createElement('button');
                 incomeOptionEdit.type = 'button'
                 incomeOptionEdit.className = 'btn btn-edit-income btn-primary me-4  d-flex align-items-center px-2 px-sm-4';
-                incomeOptionEdit.innerText = 'Редактировать';
+                incomeOptionEdit.innerText = 'Edit';
                 incomeOptionEdit.setAttribute('data-id', income.id);
                 incomeOptionEdit.onclick = function () {
                     that.editIncome(this as HTMLElement);
@@ -75,7 +75,7 @@ export class Incomes {
                 incomeOptionDelete.className = 'btn btn-delete-income btn-danger d-flex align-items-center px-2 px-sm-4';
                 incomeOptionDelete.setAttribute("data-bs-toggle", "modal");
                 incomeOptionDelete.setAttribute("data-bs-target", "#staticBackdrop");
-                incomeOptionDelete.innerText = 'Удалить';
+                incomeOptionDelete.innerText = 'Delete';
 
                 incomeOptionDelete.setAttribute('data-id', income.id);
                 if (incomeDelete) {

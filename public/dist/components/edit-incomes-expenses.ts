@@ -85,7 +85,7 @@ export class EditIncomesExpenses {
             (selectCategory as HTMLInputElement).value = (this.operations as Operation1Type).category;
 
             const type: HTMLElement | null = document.getElementById("type");
-            (type as HTMLInputElement).value = (this.operations as Operation1Type).type === 'expense' ? 'расход' : 'доход';
+            (type as HTMLInputElement).value = (this.operations as Operation1Type).type === 'expense' ? 'expense' : 'income';
             if (type) {
                 type.setAttribute('disabled', 'disabled');
             }
@@ -149,7 +149,7 @@ export class EditIncomesExpenses {
                 if (id1 && type && comment_new && amount) {
                     const result = await CustomHttp.request(config.host + '/operations/' + id1, 'PUT', {
                         id: id1,
-                        type: ((type as HTMLInputElement).value === 'расход' ? 'expense' : 'income'),
+                        type: ((type as HTMLInputElement).value === 'Expense' ? 'expense' : 'income'),
                         amount: amount_new,
                         date: dateOperation_new,
                         comment: comment_new,

@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "title": "Депозиты",
+    "title": "Deposits",
     "user_id": 1
   },
   {
     "id": 2,
-    "title": "Зарплата",
+    "title": "Salary",
     "user_id": 1
   },
   {
     "id": 3,
-    "title": "Сбережения",
+    "title": "Savings",
     "user_id": 1
   },
   {
     "id": 4,
-    "title": "Инвестиции",
+    "title": "Investments",
     "user_id": 1
   }
 ]

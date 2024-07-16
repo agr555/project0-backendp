@@ -4,30 +4,28 @@
 <div class="right py-5 px-lg-5"><!--//p-5-->
     <div class="px-md-3  "><!--px-3-->
         <div class="py-4 px-3 ">
-            <div class="page-title pb-5 pt-3 mb-1" >Главная</div>
+            <div class="page-title pb-5 pt-3 mb-1" >Main</div>
             <div class="mt-4 mb-5">
                 <div class="button myButtonBlock d-flex align-items-center justify-content-space-between mt-4 mb-1">
                     <div class="btn bt-date border-1 border-dark-subtle  me-4 mb-2 d-flex justify-content-center align-items-center" id="buttonNow">
-                        Сегодня</div>
+                        Now</div>
                     <!--a href="#"-->
                     <div class="btn bt-date border-1 border-dark-subtle  me-4  mb-2 border-dark d-flex  justify-content-center align-items-center" id="buttonWeek">
-                        Неделя</div>
+                        Week</div>
                     <div class="btn bt-date border-1 border-dark-subtle  me-4 mb-2 d-flex  justify-content-center align-items-center" id="buttonMonth">
-                        Месяц</div>
+                        Month</div>
                     <div class="btn bt-date border-1 border-dark-subtle  me-4 mb-2 d-flex  justify-content-center align-items-center" id="buttonYear">
-                        Год</div>
+                        Year</div>
                     <div class="btn bt-date border-1 border-dark-subtle  me-4 mb-2 d-flex  justify-content-center align-items-center" id="buttonAll">
-                        Все</div>
+                        All</div>
                     <div class="btn bt-date border-1 border-dark-subtle  me-4 mb-2 d-flex  justify-content-center align-items-center" id="buttonInterval">
-                        Интервал</div>
-                    <!--                    <div class="me-4 fw-bold ">с</div>-->
-                    <!--                    <div class="me-4  text-decoration-underline">Дата</div>-->
+                        Interval</div>
                     <div class="  me-4 d-flex  justify-content-center align-items-center">
-                        <label for="start" class="fw-bold ">c</label>
-                        <input type="date" class="btn text-decoration-underline" id="start" placeholder='Дата' name="trip-start" value="2022-07-11"/>
+                        <label for="start" class="fw-bold ">from</label>
+                        <input type="date" class="btn text-decoration-underline" id="start" placeholder='Date' name="trip-start" value="2022-07-11"/>
                     </div>
                     <div class="  me-4  d-flex  justify-content-center align-items-center">
-                        <label for="end" class="fw-bold">по</label>
+                        <label for="end" class="fw-bold"> to </label>
                         <input type="date" id="end" class="btn text-decoration-underline" name="trip-end" value="2024-07-22" />
                     </div>
                 </div>
@@ -37,7 +35,7 @@
                         <div class="main-title my-2">
                             <div class="charts d-flex justify-content-around">
                                 <div class="">
-                                    <div class="title card-title text-center d-none" id="incomesTitle">Доходы</div>
+                                    <div class="title card-title text-center d-none" id="incomesTitle">Incomes</div>
 <!--                                    <div class="borderChart border-end border-1 border-secondary p-5">-->
                                     <div class="px-xs-5 py-5 d-flex justify-content-center">
                                         <canvas id="chart-income" class="chart"></canvas>
@@ -46,7 +44,7 @@
                                 </div>
                                 <div class="borderChart border-start border-1 border-secondary"> </div>
                                 <div class="">
-                                    <div class="title card-title text-center d-none" id="expensesTitle">Расходы</div>
+                                    <div class="title card-title text-center d-none" id="expensesTitle">Expenses</div>
                                     <div class="px-xs-5 py-5 d-flex justify-content-center">
                                         <canvas id="chart-expenses" class="chart"></canvas>
                                     </div>

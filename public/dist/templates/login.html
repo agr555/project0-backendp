@@ -4,7 +4,7 @@
             <img src="/images/logo.png" alt="Logo">
         </a>
     </div>
-    <h1 class="registration-title pt-4 pb-4  h1 text-primary-emphasis text-center">Вход</h1>
+    <h1 class="registration-title pt-4 pb-4  h1 text-primary-emphasis text-center">Log in</h1>
     <form class="validated">
         <div class="input-group mb-2 p-0">
         <span class="input-group-text p-0" w-100 id="basic-addon2">
@@ -23,7 +23,7 @@
                     </defs>
                 </svg>
         </span>
-            <input type="text" class="form-control" pm-0 placeholder="Электронная почта" id="email"
+            <input type="text" class="form-control" pm-0 placeholder="Email" id="email"
                    aria-label="basic-addon2"
                    aria-describedby="basic-addon2">
         </div>
@@ -45,28 +45,26 @@
                     </defs>
                 </svg>
         </span>
-            <input type="password" class="form-control" placeholder="Пароль" id="password" autocomplete="off"
+            <input type="password" class="form-control" placeholder="Password" id="password" autocomplete="off"
                    aria-label="basic-addon3"
                    aria-describedby="basic-addon3">
             <div class="invalid-tooltip">
-                Укажите пароль.
+                Enter a password
             </div>
         </div>
 
         <div class="form-check mb-4 mt-2">
             <input class="form-check-input" type="checkbox" value="" id="rememberMe">
             <label class="form-check-label text-black fw-medium" for="rememberMe">
-                Запомнить меня
+                Remember me
             </label>
         </div>
 
-        <button type="button" id="process" class="btn btn-form btn-primary  fw-medium" disabled >Войти</button>
-<!--        <button type="button" id="process" class="btn btn-form btn-primary fw-medium">Войти</button>-->
-        <!--            <div class="form-link text-black mt-2  f-bold ">Ещё нет аккаунта? <a href="/#/login" class="a-link text-primary ">-->
-        <div class="form-link text-black mt-2   fw-medium ">Ещё нет аккаунта? <a href="/#/signup"
-                                                                                 class="a-link  text-primary ">
-            Пройдите регистрацию</a></div>
-        <div class="error-input d-none text-danger" id="error-input">Ошибка авторизации!</div>
+        <button type="button" id="process" class="btn btn-form btn-primary  fw-medium" disabled >Log in</button>
+        <div class="form-link text-black mt-2   fw-medium ">Don't have an account yet? 
+            <a href="/#/signup" class="a-link  text-primary "> Sign up</a>
+        </div>
+        <div class="error-input d-none text-danger" id="error-input">Authorization error!</div>
     </form>
 </div>
 

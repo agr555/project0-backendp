@@ -29,7 +29,7 @@ export class Form {
                 element: null,
                 regex: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
                 valid: false,
-                error: 'Правильно задайте емайл'
+                error: 'Enter a correct email'
             },
             {
                 name: 'password',
@@ -37,7 +37,7 @@ export class Form {
                 element: null,
                 regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/,
                 valid: false,
-                error: 'Правильно задайте пароль'
+                error: 'Enter a correct password'
             },
         ];
 
@@ -49,7 +49,7 @@ export class Form {
                     element: null,
                     regex: /^[a-zA-Zа-яёА-ЯЁ]+\s[a-zA-Zа-яёА-ЯЁ]+(\s[a-zA-Zа-яёА-ЯЁ]+)?$/,
                     valid: false,
-                    error: 'ФИО должно  состоять из букв и начинаться с заглавной буквы !'
+                    error: 'The full name must consist of letters and begin with a capital letter!'
                 },
                 {
                     name: 'passwordRepeat',

@@ -65,7 +65,7 @@ export class Expenses {
                 const expenseOptionEdit: HTMLButtonElement = document.createElement('button');
                 expenseOptionEdit.type = 'button'
                 expenseOptionEdit.className = 'btn btn-edit-expense btn-primary me-4  d-flex align-items-center px-2 px-sm-4';
-                expenseOptionEdit.innerText = 'Редактировать';
+                expenseOptionEdit.innerText = 'Edit';
                 expenseOptionEdit.setAttribute('data-id', expense.id);
                 expenseOptionEdit.onclick = function () {
                     that.editExpense(this as HTMLInputElement);
@@ -78,7 +78,7 @@ export class Expenses {
                 expenseOptionDelete.setAttribute("data-bs-target", "#staticBackdrop");
 
                 expenseOptionDelete.setAttribute('data-id', expense.id);
-                expenseOptionDelete.innerText = 'Удалить';
+                expenseOptionDelete.innerText = 'Delete';
                 expenseOptionDelete.setAttribute('data-id', expense.id);
                 if (expenseDelete) {
                     expenseOptionDelete.onclick = function () {

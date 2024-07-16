@@ -48,11 +48,11 @@ export class AddIncomesExpenses {
             const selectCategory: HTMLElement | null = document.getElementById('selectCategory');
             const type: HTMLElement | null = document.getElementById("type");
             if (type) {
-                type.innerHTML = ((this.page === 'income') ? 'Доход' : 'Расход');
+                type.innerHTML = ((this.page === 'income') ? 'income' : 'expense');
             }
             const typeOperation: HTMLElement | null = document.getElementById("typeOperation");
             if (typeOperation) {
-                typeOperation.innerHTML = ((this.page === 'income') ? 'Создание дохода' : 'Создание расхода');
+                typeOperation.innerHTML = ((this.page === 'income') ? 'Create income' : 'create expense');
             }
             AllFunction.burgerMenuClickClose();
             AllFunction.exitMenuClose();
@@ -132,7 +132,7 @@ export class AddIncomesExpenses {
                     const errorInput: HTMLElement | null = document.getElementById('error-input');
                     errorInput?.classList.add('d-block');
                     errorInput?.classList.remove('d-none');
-                    // alert('Необходимо заполнить все поля!')
+                    // alert('Fill in all the fields!')
                     return;
                 }
             }

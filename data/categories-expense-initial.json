@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "title": "Еда",
+    "title": "Food",
     "user_id": 1
   },
   {
     "id": 2,
-    "title": "Жилье",
+    "title": "Rent",
     "user_id": 1
   },
   {
     "id": 3,
-    "title": "Здоровье",
+    "title": "Health",
     "user_id": 1
   },
   {
     "id": 4,
-    "title": "Кафе",
+    "title": "Cafe",
     "user_id": 1
   },
   {
     "id": 5,
-    "title": "Авто",
+    "title": "Auto",
     "user_id": 1
   },
   {
     "id": 6,
-    "title": "Одежда",
+    "title": "Clothes",
     "user_id": 1
   },
   {
     "id": 7,
-    "title": "Развлечения",
+    "title": "Hobby",
     "user_id": 1
   },
   {
     "id": 8,
-    "title": "Счета",
+    "title": "Bills",
     "user_id": 1
   },
   {
     "id": 9,
-    "title": "Спорт",
+    "title": "Sport",
     "user_id": 1
   }
 ]
